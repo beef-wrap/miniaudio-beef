@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {example = {Path = "example"}, miniaudio = {Path = "."}}
+
+[Workspace]
+StartupProject = "example"

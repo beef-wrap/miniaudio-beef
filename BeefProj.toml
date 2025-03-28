@@ -1,0 +1,11 @@
+FileVersion = 1
+Dependencies = {corlib = "*", corlib = "*"}
+
+[Project]
+Name = "miniaudio"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\miniaudio_d.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\miniaudio.lib"]
